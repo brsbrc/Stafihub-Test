@@ -59,7 +59,6 @@ Sync durumunu kontrol
 stafihubd status 2>&1 | jq .SyncInfo
 ```
 
-```
 Validator oluşturma
 ```
 stafihubd tx staking create-validator \
@@ -76,6 +75,7 @@ stafihubd tx staking create-validator \
 --from=WalletName \
 --yes
 ```
+
 Unjail Komutu
 ```
 stafihubd tx slashing unjail --from=<key_name> --chain-id=<chain_id> --gas-prices=0.025ufis
