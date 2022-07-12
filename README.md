@@ -52,6 +52,12 @@ journalctl -u stafihubd -f
 Discord kanalından token isteyebilirsiniz (https://discord.com/invite/KXMt24cb)
 ```
 !faucet send YOUR_WALLET_ADDRESS
+
+Sync durumunu kontrol
+```
+stafihubd status 2>&1 | jq .SyncInfo
+```
+
 ```
 Validator oluşturma
 ```
