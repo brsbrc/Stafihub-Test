@@ -78,7 +78,7 @@ stafihubd tx staking create-validator \
 
 Unjail Komutu
 ```
-stafihubd tx slashing unjail --from=<key_name> --chain-id=<chain_id> --gas-prices=0.025ufis
+stafihubd tx slashing unjail --from=<key_name> --chain-id=stafihub-public-testnet-3 --gas-prices=0.025ufis
 ```
 Explorer
 ```
