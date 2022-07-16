@@ -31,6 +31,9 @@ cd $HOME/stafihub && make install
 Your node name kısmına kendi node isminizi yazın
 ```
 stafihubd init YOUR_NODE_NAME --chain-id stafihub-public-testnet-3
+```
+Genesis dosyamızı indiriyoruz.
+```
 wget -O $HOME/.stafihub/config/genesis.json "https://raw.githubusercontent.com/stafihub/network/main/testnets/stafihub-public-testnet-3/genesis.json"
 stafihubd tendermint unsafe-reset-all --home ~/.stafihub
 ```
