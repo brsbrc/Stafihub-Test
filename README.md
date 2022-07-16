@@ -52,6 +52,18 @@ Log kontrol için
 ```
 journalctl -u stafihubd -f
 ```
+
+Cüzdanınız yoksa şu komutla cüzdan alabilirsiniz
+```
+stafihubd keys add cüzdan_ismi
+```
+
+Eğer cüzdanınız varsa recover etmek istiyorsanız
+
+```
+stafihubd keys add cüzdan_ismi --recover
+```
+
 Discord kanalından token isteyebilirsiniz (https://discord.com/invite/KXMt24cb)
 ```
 !faucet send YOUR_WALLET_ADDRESS
